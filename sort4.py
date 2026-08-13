@@ -25,7 +25,11 @@ class Solution():
         self.mergesort(arr, mid + 1, high)
         self.merge(arr, low, mid, high)
 
-arr = [5, 2, 8, 4, 1]
+arr = []
+n = int(input("Enter the number of elements: "))
+print("Enter the elements:")
+for _ in range(n):
+    arr.append(int(input()))
 sol = Solution()
 sol.mergesort(arr, 0, len(arr) - 1)
 print(*arr)   
