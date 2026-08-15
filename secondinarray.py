@@ -1,4 +1,4 @@
-'''n=int(input("Enter the number of elements in the array: "))
+n=int(input("Enter the number of elements in the array: "))
 arr=[]
 for i in range(n):
     arr.append(int(input("Enter the elements: ")))
@@ -18,4 +18,4 @@ for i in range(1,len(arr)):
        smallest=arr[i]
    elif arr[i]<second_smallest and arr[i]!=smallest:
             second_smallest=arr[i]
-print(second_smallest,second_maximum)'''
+print(second_smallest,second_maximum)
